@@ -9,7 +9,7 @@ scipy==1.1.0
 pyvips==2.0.4
 tensorboard==1.15.0
 tensorflow-estimator==1.15.1
-tensorflow-gpu==1.15.0
+tensorflow-gpu==1.15.2
 Keras==2.2.4
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.0.9
