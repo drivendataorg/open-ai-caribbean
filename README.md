@@ -29,6 +29,8 @@ Place |Team or User | Public Score | Private Score | Summary of Model
 3 | Roof is on fire | 0.365941 | 0.383384 | I trained a few models for image classification. Basically I thought that some standard approach should perform well. So we used multiple models and then blended the predictions. Good image augmentations were pretty useful as usual (I made a few experiments with different compositions of augmentations). Adding DropOut to DenseNet161 increased its performance for this problem.
 Bonus | nxuan | 0.473615 | 0.494093 | First I set this problem as a classification problem. The goal to is classify the materials of the roof as more accurate as possible. For data preparation, I segment out each roofs and save into individual images with their mask. The reason to have a mask file is to let the model focus more on the predicting roof. For training, I used transfer learning of resnet18, resnet50, and resnet101. The final submission file is the ensembled average of the result from the three models.
 
+Additional solution details can be found in the `reports` folder inside the directory for each submission.
+
 #### [Interview with winners](http://drivendata.co/blog/open-ai-caribbean-winners.html)
 
 #### Benchmark Blog Post: ["Mapping Disaster Risk From Aerial Imagery - Benchmark"](http://drivendata.co/blog/disaster-response-roof-type-benchmark/)
