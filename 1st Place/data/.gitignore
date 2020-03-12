@@ -1,0 +1,4 @@
+*
+!.gitignore
+!train.geojson
+!test.geojson
