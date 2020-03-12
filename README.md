@@ -15,7 +15,7 @@ In this challenge, the goal was to use aerial imagery to classify the roof mater
 
 
 ## What's in this Repository
-This repository contains code volunteered from leading competitors in the [Open AI Caribbean Challenge: Mapping Disaster Risk from Aerial Imagery](https://github.com/drivendataorg/open-ai-caribbean) DrivenData challenge.
+This repository contains code provided by leading competitors in the [Open AI Caribbean Challenge: Mapping Disaster Risk from Aerial Imagery](https://www.drivendata.org/competitions/58/disaster-response-roof-type/) DrivenData challenge.
 
 #### Winning code for other DrivenData competitions is available in the [competition-winners repository](https://github.com/drivendataorg/competition-winners).
 
