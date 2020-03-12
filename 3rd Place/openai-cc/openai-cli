@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+if [[ "$1" == "run" ]]; then
+    python -m apps.$2
+else
+    echo """
+    Please use the following format:
+
+    openai-cli run [MODULE] [ARGS]
+
+    modules can be one of the following:
+        - tools.prepare_target
+        - tools.make_folds
+        - model.train
+        - model.inference
+        - model.evaluate
+        - visualize.predictions
+
+    Use \"open-cli run [MODULE]\" first and get further args instructions
+    """
+fi

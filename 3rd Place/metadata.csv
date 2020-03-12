@@ -1,0 +1,8 @@
+image,train,test
+stac/guatemala/mixco_1_and_ebenezer/mixco_1_and_ebenezer_ortho-cog.tif,stac/guatemala/mixco_1_and_ebenezer/train-mixco_1_and_ebenezer.geojson,stac/guatemala/mixco_1_and_ebenezer/test-mixco_1_and_ebenezer.geojson
+stac/guatemala/mixco_3/mixco_3_ortho-cog.tif,stac/guatemala/mixco_3/train-mixco_3.geojson,stac/guatemala/mixco_3/test-mixco_3.geojson
+stac/st_lucia/castries/castries_ortho-cog.tif,stac/st_lucia/castries/train-castries.geojson,
+stac/st_lucia/dennery/dennery_ortho-cog.tif,stac/st_lucia/dennery/train-dennery.geojson,stac/st_lucia/dennery/test-dennery.geojson
+stac/st_lucia/gros_islet/gros_islet_ortho-cog.tif,stac/st_lucia/gros_islet/train-gros_islet.geojson,
+stac/colombia/borde_rural/borde_rural_ortho-cog.tif,stac/colombia/borde_rural/train-borde_rural.geojson,stac/colombia/borde_rural/test-borde_rural.geojson
+stac/colombia/borde_soacha/borde_soacha_ortho-cog.tif,stac/colombia/borde_soacha/train-borde_soacha.geojson,stac/colombia/borde_soacha/test-borde_soacha.geojson

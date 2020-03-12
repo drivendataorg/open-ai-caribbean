@@ -1,0 +1,57 @@
+path: /mnt/ssd1/datasets/open_ai/
+predictions-name: predictions_test-augs-agg.csv
+visualize:
+  ids: []
+prepare-target:
+  save: True
+make-folds:
+  nfolds: 5
+  only_verified: True
+  verified_in_train: False # may be only not hard classes?
+  holdout: 0.1
+inference:
+  ids: folds.csv #test_ids.csv
+  tta: True
+  mode: test
+  clipping: [0.01, 0.99]
+blend:
+  weights: [0.5, 2, 0.5]
+  predictions:
+    -
+      predictions_test_dense121-dropout-augs-agg.csv
+    -
+      predictions_test_dense161-dropout-augs-agg.csv
+    -
+      predictions_test_rn34-augs-agg.csv
+evaluation:
+  verified_only: True
+model:
+  folds: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  data_params:
+    batch_size: 128
+    num_workers: 32
+    augmentation_params:
+      resize: 224
+  train_params:
+    name: se_rnxt50-bs128-steplr-not_filled-nowu
+    model: models_zoo.classification.se_resnext.SEResNext50
+    model_params:
+      pretrained: True
+      num_classes: 5
+    loss: losses.CrossEntropyLoss
+    loss_params: {}
+    metrics: [losses.CrossEntropyLoss]
+    steps_per_epoch: 10000
+    accumulation: 1
+  stages:
+  -
+    load_best: False
+    optimizer: Adam
+    optimizer_params:
+      lr: 0.0001
+    scheduler: MultiStepLR
+    scheduler_params:
+      milestones: [7, 10]
+      gamma: 0.3
+    epochs: 15
+    augmentation: mix_transform
