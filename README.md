@@ -1,7 +1,8 @@
 [<img src='https://s3.amazonaws.com/drivendata-public-assets/logo-white-blue.png'>](https://www.drivendata.org/)
 <br><br>
-
-<img src='https://s3.amazonaws.com/drivendata-public-assets/castries_ortho-cog-thumbnail.png' alt='Banner Image' width=100px>
+<div align="center">
+<img src='https://s3.amazonaws.com/drivendata-public-assets/castries_ortho-cog-thumbnail.png' alt='Banner Image' width='500'>
+</div>
 
 # Open AI Caribbean Challenge: Mapping Disaster Risk from Aerial Imagery
 ## Goal of the Competition
