@@ -6,6 +6,7 @@
 </div>
 
 # Open AI Caribbean Challenge: Mapping Disaster Risk from Aerial Imagery
+
 ## Goal of the Competition
 
 Natural hazards like earthquakes, hurricanes, and floods can have a devastating impact on the people and communities they affect. This is especially true where houses and buildings are not up to modern construction standards, often in poor and informal settlements. While buildings can be retrofit to better prepare them for disaster, the traditional method for identifying high-risk buildings involves going door to door by foot, taking weeks if not months and costing millions of dollars.
@@ -14,12 +15,10 @@ The World Bank Global Program for Resilient Housing and WeRobotics teamed up to 
 
 In this challenge, the goal was to use aerial imagery to classify the roof material of identified buildings in St. Lucia, Guatemala, and Colombia. Roof material is one of the main risk factors for earthquakes and hurricanes and a predictor of other risk factors, like building material, that are as not readily seen from the air. Machine learning models that are able to most accurately map disaster risk from drone imagery will help drive faster, cheaper prioritization of building inspections and target resources for disaster preparation where they will have the most impact.
 
-
 ## What's in this Repository
-This repository contains code provided by leading competitors in the [Open AI Caribbean Challenge: Mapping Disaster Risk from Aerial Imagery](https://www.drivendata.org/competitions/58/disaster-response-roof-type/) DrivenData challenge.
+This repository contains code provided by leading competitors in the [Open AI Caribbean Challenge: Mapping Disaster Risk from Aerial Imagery](https://www.drivendata.org/competitions/58/disaster-response-roof-type/) DrivenData challenge. Code for all winning solutions are open source under the MIT License.
 
-#### Winning code for other DrivenData competitions is available in the [competition-winners repository](https://github.com/drivendataorg/competition-winners).
-
+**Winning code for other DrivenData competitions is available in the [competition-winners repository](https://github.com/drivendataorg/competition-winners).**
 
 ## Winning Submissions
 
@@ -32,6 +31,6 @@ Bonus | nxuan | 0.473615 | 0.494093 | First I set this problem as a classificati
 
 Additional solution details can be found in the `reports` folder inside the directory for each submission.
 
-#### [Interview with winners](http://drivendata.co/blog/open-ai-caribbean-winners.html)
+**[Interview with winners](https://drivendata.co/blog/open-ai-caribbean-winners.html)**
 
-#### Benchmark Blog Post: ["Mapping Disaster Risk From Aerial Imagery - Benchmark"](http://drivendata.co/blog/disaster-response-roof-type-benchmark/)
+**Benchmark Blog Post: ["Mapping Disaster Risk From Aerial Imagery - Benchmark"](http://drivendata.co/blog/disaster-response-roof-type-benchmark/)**
